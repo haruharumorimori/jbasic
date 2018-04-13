@@ -1,7 +1,16 @@
-package fundamentals.chapter4.sec3_field;
+package practice.fundamentals.chapter4.sec3_field;
 /*
  * No001クラス内にインスタンス変数、static変数、ローカル変数を作成してください。
  */
 public class No001 {
+	int a=1234;
+	static int b=18;
+	public void main(String[] args) {
+		int c=2;
+
+		int sum=a+b+c;
+		System.out.println(sum);
+
+	}
 
 }

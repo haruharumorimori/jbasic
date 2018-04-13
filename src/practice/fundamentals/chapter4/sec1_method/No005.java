@@ -1,4 +1,4 @@
-package fundamentals.chapter4.sec1_method;
+package practice.fundamentals.chapter4.sec1_method;
 /*
  * int型の年を受け取り、うるう年かどうかを判定するメソッドを定義してください。
  * うるう年の場合はtrue、違う場合はfalseを返します。
@@ -6,5 +6,18 @@ package fundamentals.chapter4.sec1_method;
  * ※うるう年は、西暦が400で割り切れる年、または100で割り切れず、4で割り切れる年です。
  */
 public class No005 {
+	public static void main(String[] args) {
 
+		System.out.println(check(year));
+	}
+	static int year=2400;
+
+	public static boolean check(int year) {
+		if(year%400==0) {
+			return true;
+		}else {
+		return false;
+	}
+
+}
 }

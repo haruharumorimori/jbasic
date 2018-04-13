@@ -5,7 +5,17 @@ package practice.fundamentals.chapter4.sec1_method;
  */
 public class No001 {
 	public static void main(String[] args) {
-		int a;
-		int b;
-		
-		
+		int a=1;
+		int b=2;
+		add(a, b);
+
+		int c=4987;
+		int d=56789;
+		add(c,d);
+	}
+
+
+		private static void add(int a1, int a2) {
+			System.out.println(a1+a2);
+		}
+	}

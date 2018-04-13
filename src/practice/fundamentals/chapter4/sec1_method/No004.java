@@ -1,4 +1,4 @@
-package fundamentals.chapter4.sec1_method;
+package practice.fundamentals.chapter4.sec1_method;
 /*
  * テストの点数を受け取り、合格か不合格の文字列を返すメソッドを定義してください。
  * mainメソッドからキーボード入力で点数を受け取り、メソッドを使って判定してください。
@@ -6,4 +6,17 @@ package fundamentals.chapter4.sec1_method;
  */
 public class No004 {
 
+public static void main(String[] args) {
+
+	int Testpoint=89;
+	check(Testpoint);
+}
+
+public static void check(int a) {
+		if(a<=79) {
+			System.out.println("不合格");
+		}else {
+			System.out.println("合格");
+		}
+	}
 }
