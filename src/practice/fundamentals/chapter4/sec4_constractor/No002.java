@@ -6,11 +6,10 @@ package practice.fundamentals.chapter4.sec4_constractor;
 public class No002 {
 	public static void main(String[] args) {
 		Hello h=new Hello();
-		h.sayHello();
 				}
 }
 class Hello{
-	public void sayHello(){
+Hello(){
 		System.out.println("Hello");
 	}
 }
