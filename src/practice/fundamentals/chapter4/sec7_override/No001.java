@@ -1,4 +1,4 @@
-package fundamentals.chapter4.sec7_override;
+package practice.fundamentals.chapter4.sec7_override;
 /*
  * 次のプログラムを実行すると、「山田」と表示されました。
  * ManagerクラスにgetNameメソッドをオーバーライドし、「【マネージャー】山田」と表示されるようにしてください。
@@ -19,5 +19,7 @@ class Employee {
 }
 
 class Manager extends Employee {
-	
+	public void getName(){
+		System.out.println("【マネージャー】"+name);
+	}
 }
