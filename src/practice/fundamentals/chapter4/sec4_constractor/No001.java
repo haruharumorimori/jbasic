@@ -16,19 +16,20 @@ package practice.fundamentals.chapter4.sec4_constractor;
 public class No001 {
 	public static void main(String[] args) {
 
-
-Car 車1=new Car();
 int g=80;
-車1.run(g);
+Car 車1=new Car(g);
+
+
 System.out.println("残ガス"+車1.getGas()+"l");
-System.out.println(車1.chargeGas(g)+"入りました!!!!!!!!!!!!");
+int o=20;
+System.out.println(車1.chargeGas(o)+"入りました!!!!!!!!!!!!");
 
 	}
 }
 
 class Car{
 	int gas=200;
-	public void run(int gas) {
+	Car(int gas) {
 		this.gas-=gas;
 		System.out.println(gas*10+"km走行したよ!");
 	}
@@ -36,9 +37,10 @@ class Car{
 
 	return this.gas;
 	}
-	public int chargeGas(int gas){
+	int oil;
+	public int chargeGas(int oil){
 
-		return gas;
+		return oil;
 	}
 
 }
