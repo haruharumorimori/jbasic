@@ -10,13 +10,13 @@ package practice.fundamentals.chapter2.sec3_array;
  */
 public class No001 {
 	public static void main(String[] args) {
-		int[] 点数 = new int[3];
-		点数[0]=84;
-		点数[1]=74;
-		点数[2]=92;
+			int[] 点数 = new int[3];
+			点数[0]=84;
+			点数[1]=74;
+			点数[2]=92;
 
-		System.out.println("1人目:"+点数[0]);
-		System.out.println("2人目:"+点数[1]);
-		System.out.println("3人目:"+点数[2]);
+			System.out.println("1人目:"+点数[0]);
+			System.out.println("2人目:"+点数[1]);
+			System.out.println("3人目:"+点数[2]);
 	}
 }

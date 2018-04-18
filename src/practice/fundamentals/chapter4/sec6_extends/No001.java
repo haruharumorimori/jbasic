@@ -6,14 +6,19 @@ package practice.fundamentals.chapter4.sec6_extends;
  */
 public class No001 extends Book {
 
+		 String title="Fノホン";
+		public void setTitle(String title) {
+			this.title=title;
+	}
+		public String getTitle() {
+			System.out.println(this.title);
+			return this.title;
+			}
 	public static void main(String[] args) {
-		No001 n=new No001();
-		String title="Fノホン";
-		n.setTitle(title);
-		n.getTitle();
-		System.out.println("本の名前は："+n.getTitle());
+
 	}
 }
+
 
 
 

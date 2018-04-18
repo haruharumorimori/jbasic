@@ -19,11 +19,10 @@ public class No001 {
 int g=80;
 Car 車1=new Car(g);
 
-
 System.out.println("残ガス"+車1.getGas()+"l");
+
 int o=20;
 System.out.println(車1.chargeGas(o)+"入りました!!!!!!!!!!!!");
-
 	}
 }
 
@@ -34,13 +33,11 @@ class Car{
 		System.out.println(gas*10+"km走行したよ!");
 	}
 	public int getGas(){
-
-	return this.gas;
+		return this.gas;
 	}
+	
 	int oil;
 	public int chargeGas(int oil){
-
-		return oil;
+	return oil;
 	}
-
 }

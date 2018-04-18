@@ -11,11 +11,8 @@ public class No004 {
 		i[3]=1.4;
 		i[4]=1.5;
 
-for(int s1=0;s1<i.length;s1++){
-System.out.println(i[s1]);
-}
-
-
-
+		for(int s1=0;s1<i.length;s1++){
+			System.out.println(i[s1]);
+		}
 	}
 }

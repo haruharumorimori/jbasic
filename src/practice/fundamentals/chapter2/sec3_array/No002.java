@@ -6,14 +6,15 @@ package practice.fundamentals.chapter2.sec3_array;
  */
 public class No002 {
 	public static void main(String[] args) {
-	int[] intarray = new int[5];
-	intarray[0]=1;
-	intarray[1]=2;
-	intarray[2]=3;
-	intarray[3]=4;
-	intarray[4]=5;
-	int len = intarray.length;
-	System.out.println("intarrayの要素の数は"+len);
+		int[] intarray = new int[5];
+		intarray[0]=1;
+		intarray[1]=2;
+		intarray[2]=3;
+		intarray[3]=4;
+		intarray[4]=5;
+		int len = intarray.length;
+
+		System.out.println("intarrayの要素の数は"+len);
 	}
 }
 
