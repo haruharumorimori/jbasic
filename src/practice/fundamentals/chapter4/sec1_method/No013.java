@@ -5,5 +5,15 @@ package practice.fundamentals.chapter4.sec1_method;
  * ※平均の計算は整数で行うこと
  */
 public class No013 {
-
+	public static void main(String[] args) {
+		int a=908;
+		int b=9876;
+		System.out.println(average(a,b));
+	}
+	int a;
+	int b;
+	public static int average(int a,int b) {
+		int c=(a+b)/2;
+		return c;
+	}
 }

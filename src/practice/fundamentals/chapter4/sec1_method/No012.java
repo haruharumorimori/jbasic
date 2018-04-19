@@ -4,5 +4,14 @@ package practice.fundamentals.chapter4.sec1_method;
  * また、メソッドの動作を検証できるようにプログラムを作成してください。
  */
 public class No012 {
+	public static void main(String[] args) {
+		int d=5;
 
+		System.out.println(doubleUp(d));
+	}
+	int a;
+	public static int doubleUp(int a) {
+		int b=a*=a;
+		return b;
+	}
 }

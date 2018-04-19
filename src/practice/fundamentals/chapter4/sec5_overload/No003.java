@@ -5,5 +5,23 @@ package practice.fundamentals.chapter4.sec5_overload;
  * 足し算クラスのコンストラクタを定義してください。
  */
 public class No003 {
+	public static void main(String[] args) {
+		String c="おじいちゃん";
+		String d="あばあちゃん";
+		add a=new add(c,d);
+	}
+}
 
+class add{
+	add(int a,int b){
+		System.out.println(a+b);
+	}
+
+	add(double a,double b){
+		System.out.println(a+b);
+	}
+
+	add(String a,String b){
+		System.out.println(a+b);
+	}
 }
