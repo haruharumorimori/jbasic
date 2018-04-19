@@ -5,11 +5,11 @@ package practice.fundamentals.chapter7.sec2_throw;
  */
 public class No001 {
 	public static void main(String[] args) {
-			int a=1;
-			if(a==0) {
-				throw new ArithmeticException(
-				"こちらエラーとなっております^^"
-				);
+		int a=1;
+		if(a==0) {
+			throw new ArithmeticException(
+					"こちらエラーとなっております^^"
+					);
 		}
 		System.out.println(a);
 	}

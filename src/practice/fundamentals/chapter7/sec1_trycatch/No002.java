@@ -6,12 +6,12 @@ package practice.fundamentals.chapter7.sec1_trycatch;
 public class No002 {
 	public static void main(String[] args) {
 		try{
-		disp(1);
-		disp(2);
-		disp(3);
-	}catch(IndexOutOfBoundsException i){
-		System.out.println("入力値が不正です。"+i);
-	}
+			disp(1);
+			disp(2);
+			disp(3);
+		}catch(IndexOutOfBoundsException i){
+			System.out.println("入力値が不正です。"+i);
+		}
 	}
 
 	private static void disp(int no) {

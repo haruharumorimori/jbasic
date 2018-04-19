@@ -11,9 +11,9 @@ public class No002 {
 	}
 
 	private static void show(int no) {
-
 		int[] array = {100,200,300};
-			if(2<no||no<0) {
+
+		if(2<no||no<0) {
 			throw new ArrayIndexOutOfBoundsException(
 					"<入力された引数>は範囲外です。0~2の値をいれてください。");
 		}
