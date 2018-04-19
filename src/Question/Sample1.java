@@ -7,8 +7,8 @@ public class Sample1 {
 		Sample1 s=new Sample1();
 		int x=s.method(z, y);
 		System.out.println(x);
-
 	}
+
 	int a;
 	int b;
 	public int method(int a,int b) {
