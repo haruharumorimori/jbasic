@@ -7,17 +7,16 @@ package practice.fundamentals.chapter4.sec1_method;
  */
 public class No005 {
 	public static void main(String[] args) {
-
-		System.out.println(check(year));
+		int year1=2400;
+		System.out.println(check(year1));
 	}
-	static int year=2400;
+	int year;
 
 	public static boolean check(int year) {
 		if(year%400==0) {
 			return true;
 		}else {
-		return false;
+			return false;
+		}
 	}
-
-}
 }

@@ -14,7 +14,6 @@ public class No001 {
 		m.min(a, b);
 		m.min(a, b, c);
 	}
-
 }
 
 class min{
@@ -23,7 +22,6 @@ class min{
 	int c;
 
 	int min(int a,int b) {
-
 		if(a<b) {
 			System.out.println("aが最小");
 			return a;
@@ -35,6 +33,7 @@ class min{
 			return 0;
 		}
 	}
+
 	int min(int a,int b,int c) {
 		if(a-b<0&&a-c<0) {
 		System.out.println("aが最小");
@@ -48,6 +47,6 @@ class min{
 	}else {
 		System.out.println("Error");
 		return 0;
+		}
 	}
-}
 }

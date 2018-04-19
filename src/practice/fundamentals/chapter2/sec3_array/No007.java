@@ -12,10 +12,8 @@ public class No007 {
 		i[3]=40;
 		i[4]=50;
 
-	for(int s=0;s<5;s++) {
-		System.out.println(i[s]);
-	}
-
-
+		for(int s=0;s<5;s++) {
+			System.out.println(i[s]);
+		}
 	}
 }

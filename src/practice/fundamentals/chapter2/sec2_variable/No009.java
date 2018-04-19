@@ -8,6 +8,7 @@ public class No009 {
 	public static void main(String[] args) {
 		float f = 1.2f;
 		double d = 5.275;
+		
 		f = (float)d ;
 
 		System.out.println("f=" + f);

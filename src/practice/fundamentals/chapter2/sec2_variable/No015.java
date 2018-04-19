@@ -5,7 +5,7 @@ package practice.fundamentals.chapter2.sec2_variable;
 public class No015 {
 	public static void main(String[] args) {
 		char a ='あ' ;
-		System.out.println(a);
 
+		System.out.println(a);
 	}
 }

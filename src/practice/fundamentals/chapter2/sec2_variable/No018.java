@@ -5,6 +5,7 @@ package practice.fundamentals.chapter2.sec2_variable;
 public class No018 {
 	public static void main(String[] args) {
 		char c = '\u0021';
+		
 		System.out.println(c);
 	}
 }

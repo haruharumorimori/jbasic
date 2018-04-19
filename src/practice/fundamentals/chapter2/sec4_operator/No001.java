@@ -11,6 +11,7 @@ public class No001 {
         c *=3;  //  cに3をかける
         d /=2;  //  dを2で割る
         e %= 2;  //  eに、eを2で割った余りを代入する
+
         System.out.println("a = " + a);
         System.out.println("b = " + b);
         System.out.println("c = " + c);

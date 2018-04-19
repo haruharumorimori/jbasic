@@ -8,11 +8,9 @@ public class No013 {
 		int Point= 98;
 		String food= "リンゴ";
 		double comsumptiontax= 0.08;
+
 		System.out.println("テストの点数は"+Point);
 		System.out.println("食べ物は"+food);
 		System.out.println("消費税率は"+comsumptiontax);
-
-
-
 	}
 }

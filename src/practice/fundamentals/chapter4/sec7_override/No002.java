@@ -27,18 +27,21 @@ class Book {
 		System.out.println(price + "円");
 	}
 }
+
 class 漫画 extends Book{
 	void showPrice() {
 	price=300;
 		System.out.println("漫画:Bookの価格"+price+"円");
 	}
 }
+
 class 小説 extends Book{
 	void showPrice() {
 	price=400;
 		System.out.println("小説:Bookの価格"+price+"円");
 	}
 }
+
 class 雑誌 extends Book{
 	void showPrice() {
 	price=600;

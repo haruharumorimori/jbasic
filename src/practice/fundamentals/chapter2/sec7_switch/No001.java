@@ -6,7 +6,6 @@ package practice.fundamentals.chapter2.sec7_switch;
 public class No001 {
 	public static void main(String[] args) {
 	int p=79;
-	
 	}
 }
 

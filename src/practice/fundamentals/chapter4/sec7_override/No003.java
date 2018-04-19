@@ -11,30 +11,29 @@ public class No003 {
 		Master m=new Master();
 		pU.show();
 		m.show();
-
 	}
 }
 
 class User {
 	String name;
 	int id;
+
 	void show() {
 		System.out.println("ユーザID：" + id + "ユーザ名：" + name);
 	}
 }
+
 class publicUser extends User{
 	void show() {
-	name="田中";
-	id=256;
-
+		name="田中";
+		id=256;
 		System.out.println("ユーザID：" + id + "ユーザ名：" + name);
 	}
 }
 class Master extends User{
 	void show() {
-	name ="国木田";
-	id=1;
-
+		name ="国木田";
+		id=1;
 		System.out.println("ユーザID：" + id + "ユーザ名：" + name);
 	}
 }

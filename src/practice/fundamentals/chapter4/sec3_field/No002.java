@@ -6,27 +6,25 @@ package practice.fundamentals.chapter4.sec3_field;
 public class No002 {
 public static void main(String[] args) {
 	addadd z=new addadd();
+	int a=21;
+	int b=22;
 
-		int a=21;
-		int b=22;
-
-		z.add(a,b);
+	z.add(a,b);
+	}
 }
 
-}
- class addadd{
-int a;
-static int b;
-public void add(int a,int b) {
-	int c = 1642;
-	int sum1=a+b+c;
-	System.out.println(sum1);
-	int sum2=a+b;
-	System.out.println(sum2);
-	int sum3=b+c;
-	System.out.println(sum3);
-	int sum4=c+a;
-	System.out.println(sum4);
-
-}
+class addadd{
+	int a;
+	static int b;
+	public void add(int a,int b) {
+		int c = 1642;
+		int sum1=a+b+c;
+		System.out.println(sum1);
+		int sum2=a+b;
+		System.out.println(sum2);
+		int sum3=b+c;
+		System.out.println(sum3);
+		int sum4=c+a;
+		System.out.println(sum4);
+	}
 }

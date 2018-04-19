@@ -6,11 +6,11 @@ package practice.fundamentals.chapter2.sec2_variable;
  */
 public class No010 {
     public static void main(String[] args) {
-    int x = 22;
-    int y = 11;
+    	int x = 22;
+    	int y = 11;
 
-    System.out.println(x*y);
-    System.out.println(x/y);
+    	System.out.println(x*y);
+    	System.out.println(x/y);
 
     }
 }

@@ -11,12 +11,9 @@ public class No003 {
 	}
 }
 class Human{
-
 	static int ID=0;
 	Human(){
 		ID++;
 		System.out.println("あなたのIDは"+ID);
-
 	}
-
 }

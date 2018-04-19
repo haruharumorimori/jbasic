@@ -20,5 +20,4 @@ public class No001 {
 			System.out.println(fluit.get(i));
 		}
 	}
-
 }

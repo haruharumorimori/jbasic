@@ -7,6 +7,7 @@ public class No001 {
 	public static void main(String[] args) {
 		int x;
 		x=18;
+
 		if(0<=x) {
 			System.out.println("正");
 		}else{

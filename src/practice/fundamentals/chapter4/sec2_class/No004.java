@@ -23,26 +23,23 @@ public class No004 {
 	b.bn(a1);
 	b.wn(b1);
 	b.m(c1);
-
-
-
-
 	}
 }
+
 class book{
 	static String bookname;
 		public void bn(String bookname){
 			System.out.println("本:"+bookname);
 	}
+
 	static String writername;
-		public void wn(String writername) {
-			System.out.println("著者:"+writername);
+	public void wn(String writername) {
+	System.out.println("著者:"+writername);
 	}
+
 	static int money;
-		public void m(int money) {
-			System.out.println(money+"円");
-		}
-
-
+	public void m(int money) {
+		System.out.println(money+"円");
+	}
 }
 

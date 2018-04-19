@@ -17,5 +17,4 @@ public class No001 {
 	public String getName() {
 		return this.name;
 	}
-
 }

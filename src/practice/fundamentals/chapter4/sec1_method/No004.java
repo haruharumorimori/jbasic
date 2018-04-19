@@ -5,12 +5,11 @@ package practice.fundamentals.chapter4.sec1_method;
  * ※80点以上で合格とする。
  */
 public class No004 {
+	public static void main(String[] args) {
+		int Testpoint=89;
 
-public static void main(String[] args) {
-
-	int Testpoint=89;
-	check(Testpoint);
-}
+		check(Testpoint);
+	}
 
 public static void check(int a) {
 		if(a<=79) {

@@ -17,6 +17,6 @@ public class No002 {
 	name.remove(1);
 	for(int i=0;i<name.size();i++) {
 		System.out.println("名前:"+name.get(i));
-	}
+		}
 	}
 }

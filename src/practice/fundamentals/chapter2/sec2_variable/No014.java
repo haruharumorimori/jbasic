@@ -5,6 +5,7 @@ package practice.fundamentals.chapter2.sec2_variable;
 public class No014 {
 	public static void main(String[] args) {
 		String a = "HelloWorld";
+
 		System.out.println(a);
 	}
 }

@@ -6,10 +6,8 @@ package practice.fundamentals.chapter7.sec2_throw;
  */
 public class No002 {
 	public static void main(String[] args) {
-
 		show(3);
 		//show(-1);
-
 	}
 
 	private static void show(int no) {

@@ -4,7 +4,9 @@ package practice.fundamentals.chapter4.sec10_javabeans;
  */
 public class UserInfo implements java.io.Serializable{
 	private String name;
+	
 	public UserInfo() {}
+	
 	public UserInfo(String name) {
 		this.name=name;
 	}

@@ -25,6 +25,7 @@ class Animal {
 		this.name = name;
 	}
 }
+
 class Cat extends Animal{
 	String 鳴き声="ニャー";
 	String get鳴き声() {

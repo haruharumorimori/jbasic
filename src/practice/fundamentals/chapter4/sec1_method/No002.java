@@ -14,7 +14,7 @@ public class No002 {
 		div(a3,a4);
 	}
 
-public static void div(double a,double b) {
-	System.out.println(a/b);
-}
+	public static void div(double a,double b) {
+		System.out.println(a/b);
+	}
 }

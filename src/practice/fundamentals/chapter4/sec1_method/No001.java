@@ -14,8 +14,7 @@ public class No001 {
 		add(c,d);
 	}
 
-
-		private static void add(int a1, int a2) {
+	private static void add(int a1, int a2) {
 			System.out.println(a1+a2);
-		}
 	}
+}

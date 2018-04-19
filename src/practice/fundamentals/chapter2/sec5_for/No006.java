@@ -5,7 +5,9 @@ package practice.fundamentals.chapter2.sec5_for;
 public class No006 {
 	public static void main(String[] args) {
 		int a=1;
+
 		for(int b=1;b<=8;b++) {
-			System.out.println(a*=2);}
+			System.out.println(a*=2);
+		}
 	}
 }

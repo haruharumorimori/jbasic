@@ -17,8 +17,8 @@ public class No007 {
 	array[2]="***";
 	array[3]="****";
 	array[4]="*****";
-for(int i=0;i<=4;i++) {
-System.out.println(array[i]);
-	}
+		for(int i=0;i<=4;i++) {
+			System.out.println(array[i]);
+		}
 	}
 }

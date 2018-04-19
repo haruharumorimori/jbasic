@@ -8,6 +8,7 @@ public class No008 {
 	public static void main(String arsg[]) {
 		byte b = 0;
 		int i = 2;
+		
 		b = (byte) i;
 
 		System.out.println("b=" + b);

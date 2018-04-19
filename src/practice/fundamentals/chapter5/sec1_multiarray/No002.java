@@ -5,10 +5,10 @@ package practice.fundamentals.chapter5.sec1_multiarray;
  */
 public class No002 {
 	public static void main(String[] args) {
-	int[][] array= {
+		int[][] array= {
 			{123,456,789},
-		{1234,2345,5678}
-	};
-	System.out.println(array[1][2]);
+			{1234,2345,5678}
+		};
+		System.out.println(array[1][2]);
 	}
 }

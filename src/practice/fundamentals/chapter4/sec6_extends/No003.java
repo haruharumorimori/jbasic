@@ -12,8 +12,8 @@ public class No003 {
 		System.out.println(d.getName());
 		System.out.println(d.getName()+"は"+d.sit());
 	}
-
 }
+
 class Dog extends Animal{
 	public String sit(){
 		return "お座りしたよ";

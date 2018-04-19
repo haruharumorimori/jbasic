@@ -10,6 +10,7 @@ public class No005 {
 		i[0]=1;
 		i[1]=2;
 		i[2]=3;
+
 		System.out.println(i[2]);
 	}
 }

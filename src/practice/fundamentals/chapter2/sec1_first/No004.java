@@ -6,11 +6,11 @@ package practice.fundamentals.chapter2.sec1_first;
  */
 public class No004 {
 
-public static void main(String[] args) {
-	System.out.println("藤");
-	System.out.println("森");
-	System.out.println(" ");
-	System.out.println("遥");
-	System.out.println("翔");
+	public static void main(String[] args) {
+		System.out.println("藤");
+		System.out.println("森");
+		System.out.println(" ");
+		System.out.println("遥");
+		System.out.println("翔");
 	}
 }

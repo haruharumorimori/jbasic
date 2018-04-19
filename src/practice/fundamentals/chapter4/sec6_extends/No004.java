@@ -12,6 +12,7 @@ public class No004 {
 			System.out.println("おばあちゃんは言いました「"+gm.GrandMother()+"」");
 	}
 }
+
 class Human{
 	String name;
 	 String Human(){
@@ -19,11 +20,11 @@ class Human{
 		 return name;
 	}
 }
+
 class GrandMother extends Human{
 	String say="かんたあああああああ！！";
 	String GrandMother(){
 		say="かんたあああああああ！！";
 		return say;
 	}
-
 }

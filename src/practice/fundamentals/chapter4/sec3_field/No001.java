@@ -7,9 +7,5 @@ public class No001 {
 	static int b=18;
 	public static void main(String[] args) {
 		int c=2;
-
-
-
 	}
-
 }

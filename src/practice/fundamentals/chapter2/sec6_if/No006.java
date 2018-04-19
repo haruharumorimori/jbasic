@@ -5,6 +5,7 @@ package practice.fundamentals.chapter2.sec6_if;
  */
 public class No006 {
 	public static void main(String[] args) {
+
 		for(double x=1.1;x<=2.0;x++) {
 			if(x<2) {
 				System.out.println("これは少数です");
@@ -12,6 +13,5 @@ public class No006 {
 				System.out.println("これは少数ではないです");
 			}
 		}
-
 	}
 }

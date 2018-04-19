@@ -5,7 +5,6 @@ package practice.fundamentals.chapter2.sec1_first;
  * 表示されるように修正してください
  */
 public class No005 {
-
 	public static void main(String[] args) {
 		System.out.println("Hello Java");
 	}

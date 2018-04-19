@@ -8,12 +8,14 @@ public class No002 {
 public static void main(String[] args) {
 	ぶーぶー c=new ぶーぶー();
 	String name=ぶーぶー.getCar();
+
 	System.out.println("それ僕の"+name);
-}
+	}
 }
 
 class ぶーぶー{
 	public static String name="レクサス";
+
 	public static String getCar() {
 		return name;
 	}

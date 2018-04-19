@@ -13,6 +13,6 @@ public class No003 {
 			System.out.println("10の倍数ではないです。");
 		}
 	}
-	}
+}
 
 

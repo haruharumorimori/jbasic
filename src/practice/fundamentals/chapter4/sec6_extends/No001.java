@@ -11,11 +11,12 @@ public class No001 extends Book {
 			this.title=title;
 	}
 		public String getTitle() {
-			System.out.println(this.title);
 			return this.title;
-			}
-	public static void main(String[] args) {
+		}
 
+	public static void main(String[] args) {
+		No001 n=new No001();
+		System.out.println(n.getTitle());
 	}
 }
 

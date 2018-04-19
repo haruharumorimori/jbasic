@@ -13,7 +13,6 @@ public class No003 {
 		a[1][1][1]=234;
 		a[1][2][2]=777;
 		a[0][0][1]=666;
-	System.out.println(a[1][2][2]);
+		System.out.println(a[1][2][2]);
 	}
-
 }

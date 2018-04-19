@@ -10,19 +10,18 @@ package practice.fundamentals.chapter4.sec1_method;
 public class No006 {
 	public static void main(String[] args) {
 		int[] array= {19,20,21};
-	int add=a(array);
-System.out.println(add);
+		int add=a(array);
+
+		System.out.println(add);
 	}
 
-public static int a(int[]array) {
-	int a=0;
-	for(int i=0;i<array.length;i++) {
-	 a+=array[i];
-
-}
-	return a;
-
-}
+	public static int a(int[]array) {
+		int a=0;
+		for(int i=0;i<array.length;i++) {
+			a+=array[i];
+		}
+		return a;
+	}
 }
 
 

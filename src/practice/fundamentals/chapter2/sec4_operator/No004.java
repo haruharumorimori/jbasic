@@ -5,9 +5,11 @@ package practice.fundamentals.chapter2.sec4_operator;
 public class No004 {
 	public static void main(String[] args) {
 		int i= 5;
+
 		boolean b;
-		b=true ;
+
 		if(i<10) {
+			b=true;
 			System.out.println(b);
 		}
 	}

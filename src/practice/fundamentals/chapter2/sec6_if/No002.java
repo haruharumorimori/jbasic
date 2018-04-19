@@ -7,10 +7,11 @@ public class No002 {
 	public static void main(String[] args) {
 		int x=34;
 		int y=2;
+
 		if(x%y==1) {
 			System.out.println("奇");
 		}else{
-		System.out.println("偶");
+			System.out.println("偶");
+		}
 	}
-}
 }

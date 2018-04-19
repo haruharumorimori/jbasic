@@ -18,5 +18,4 @@ public class No003 {
 			System.out.println(array.get(i));
 		}
 	}
-
 }

@@ -6,13 +6,13 @@ package practice.fundamentals.chapter5.sec1_multiarray;
  */
 public class No001 {
 	public static void main(String[] args) {
-	int[][] num= new int[2][3] ;
-	num[0][0]=123;
-	num[0][1]=234;
-	num[0][2]=345;
-	num[1][0]=456;
-	num[1][1]=567;
-	num[1][2]=678;
-	System.out.println(num[0][1]);
+		int[][] num= new int[2][3] ;
+		num[0][0]=123;
+		num[0][1]=234;
+		num[0][2]=345;
+		num[1][0]=456;
+		num[1][1]=567;
+		num[1][2]=678;
+		System.out.println(num[0][1]);
 	}
 }

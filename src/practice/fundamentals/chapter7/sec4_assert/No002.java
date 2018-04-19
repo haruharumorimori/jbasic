@@ -12,9 +12,9 @@ public class No002 {
 	z.g(c);
 	assert z.g(c):"ERRORなんだよなぁ";
 	System.out.println(z.g(c));
-
 	}
 }
+
 class num{
 	int a;
 	boolean b;

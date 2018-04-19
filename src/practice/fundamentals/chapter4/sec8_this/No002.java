@@ -6,12 +6,10 @@ package practice.fundamentals.chapter4.sec8_this;
 public class No002 {
 	public static void main(String[] args) {
 		Book b = new Book();
-
 	}
 }
 
 class Book {
-
 	Book() {
 		this("Fノホン");
 	}

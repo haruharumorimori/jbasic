@@ -16,7 +16,6 @@ public class No004 {
 
 	おじさん.remove(3);
 
-
 	for(int o=0;o<おじさん.size();o++) {
 		System.out.println(おじさん.get(o));
 	}

@@ -9,9 +9,7 @@ class action{
 	}
 	action (String n){
 		name=n;
-
-}
-
+	}
 }
 
 public class No002 {
