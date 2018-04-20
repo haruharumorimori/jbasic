@@ -1,11 +1,16 @@
 package practice.fundamentals.chapter10.sec1_list;
-
 /*
- * クラス SeitoScore をつくり、名前と、点数をメンバー変数に持たせてください。
- * メソッドには名前と点数を出力するメソッドを作り、コンストラクタで生徒名と点数を設定するようにしてください。
- * No001を使って５人の生徒の情報を管理し、５０点以上の生徒だけを表示するプログラムを作成してください。
- * ※Listクラスを必ず使用すること
+ * ArrayListクラスに文字列を代入し、出力するプログラムを作成してください。
  */
+import java.util.ArrayList;
 public class No001 {
-
+	public static void main(String[] args) {
+		ArrayList<String> a=new ArrayList<String>();
+		a.add("きつねうどん");
+		a.add("たぬきそば");
+		a.add("そーめん");
+		for(String s:a) {
+			System.out.println(s);
+		}
+	}
 }

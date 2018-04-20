@@ -1,10 +1,16 @@
-package fundamentals.chapter10.sec1_list;
-
+package practice.fundamentals.chapter10.sec1_list;
 /*
- * 買い物リストクラスを作成し、「No」と「名称」と「価格」をメンバ変数に持たせ、コンストラクタで各メンバ変数の値を設定するようにしてください。
- * また、メソッドには各メンバの値を設定するメソッド（setter）と、取得するメソッド（getter）を作成してください。
- * No002クラスで買い物リストを完成させ、100円以上のものと100円より下のもので分けて表示するようにしてください。
+ * ArrayListに数値を代入し、出力するプログラムを作成してください。
  */
+import java.util.ArrayList;
 public class No002 {
-	
+	public static void main(String[] args) {
+		ArrayList<Integer> i=new ArrayList<Integer>();
+		i.add(1);
+		i.add(2);
+		i.add(3);
+		for(int a:i) {
+			System.out.println(a);
+		}
+	}
 }

@@ -15,36 +15,36 @@ public class No002 {
 		漫画 m=new 漫画();
 		小説 s=new 小説();
 		雑誌 z=new 雑誌();
-		m.showPrice();
-		s.showPrice();
-		z.showPrice();
+		System.out.println("漫画BOOKの価格"+m.showPrice());
+		System.out.println("小説BOOKの価格"+s.showPrice());
+		System.out.println("雑誌BOOKの価格"+z.showPrice());
 	}
 }
 
 class Book {
-	int price = 500;  // 価格
-	void showPrice() {
-		System.out.println(price + "円");
+	int price=500;  // 価格
+	int showPrice() {
+		return price;
 	}
 }
 
 class 漫画 extends Book{
-	void showPrice() {
-	price=300;
-		System.out.println("漫画:Bookの価格"+price+"円");
-	}
+	public int showPrice() {
+	int price=300;
+	return price;
+		}
 }
 
 class 小説 extends Book{
-	void showPrice() {
-	price=400;
-		System.out.println("小説:Bookの価格"+price+"円");
+	public int showPrice() {
+	int price=400;
+		return price;
 	}
 }
 
 class 雑誌 extends Book{
-	void showPrice() {
-	price=600;
-		System.out.println("雑誌:Bookの価格"+price+"円");
+	public int showPrice() {
+	int price=600;
+		return price;
 	}
 }
