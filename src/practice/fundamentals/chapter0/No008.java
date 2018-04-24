@@ -4,5 +4,7 @@ package practice.fundamentals.chapter0;
  * ※ラムダ式を使用すること
  */
 public class No008 {
-	
+	public static void main(String[] args) {
+		
+	}
 }
