@@ -5,6 +5,9 @@ package practice.fundamentals.chapter0;
  */
 public class No008 {
 	public static void main(String[] args) {
-		
+		Runnable runner=()->{
+			System.out.println("Hello ラムダ");
+		};
+		runner.run();
 	}
 }
