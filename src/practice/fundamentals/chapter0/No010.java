@@ -12,16 +12,18 @@ public class No010 {
 		SeitoScore s2=new SeitoScore("田中",59);
 		SeitoScore s3=new SeitoScore("斎藤",78);
 		SeitoScore s4=new SeitoScore("竹中",89);
-		SeitoScore s5=new SeitoScore("城之内",0);
+		SeitoScore s5=new SeitoScore("城之内",90);
 		ArrayList<SeitoScore> a=new ArrayList<SeitoScore>();
 		a.add(s1);
 		a.add(s2);
 		a.add(s3);
 		a.add(s4);
 		a.add(s5);
-		for(int i=0;i<a.size();i++) {
-			if(int >50){
-		}
+		for(SeitoScore b:a) {
+			if(b.getScore()>50){
+				System.out.println(b.getName());
+				System.out.println(b.getScore());
+			}
 		}
 	}
 }
@@ -30,13 +32,13 @@ class SeitoScore{
 	String name;
 	int score;
 	SeitoScore(String n,int s){
-		n=name;
-		s=score;
+		this.name=n;
+		this.score=s;
 		}
-	public void getName() {
-		System.out.println(name);
+	String getName() {
+		return this.name;
 	}
-	public void getScore() {
-		System.out.println(score);
+	int getScore() {
+		return this.score;
 	}
 }
