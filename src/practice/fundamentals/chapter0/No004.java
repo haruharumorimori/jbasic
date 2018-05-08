@@ -14,7 +14,7 @@ public class No004 {
 		Employee e3=new Employee("山村",2018,9,9);
 		System.out.println("名前："+e1.name+"入社日"+e1.LD);
 		System.out.println("名前："+e2.name+"入社日"+e2.LD);
-		System.out.println("名前"+e3.name+"入社日"+e3.LD);
+		System.out.println("名前:"+e3.name+"入社日"+e3.LD);
 	}
 }
 class Employee{
